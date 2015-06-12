@@ -13,13 +13,13 @@ All information is based on the [official API document](https://github.com/nwjs/
 In developing:
 
 ```
-var gui = require('./nwis/nwisgui.js');
+var gui = require('./nwis/nwisgui.js'); // Use nwis for IntelliSense support.
 ```
 
-In releasing:
+In debugging/publishing:
 
 ```
-var gui = require('nw.gui')';
+var gui = require('nw.gui'); // Use nw.gui, which can be recognized by nw.js.
 ```
 
 ## Future Improvements
